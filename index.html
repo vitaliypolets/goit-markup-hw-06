@@ -55,6 +55,70 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button">
+          <svg class="burger-item" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- mobil menu -->
+      <div class="mobile-menu">
+        <button class="close-btn" type="button">
+          <svg class="close-popup-item" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav">
+          <a href="#" class="active">Studio</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Contacts</a>
+        </nav>
+        <adress class="mobile-contacts">
+          <ul class="adress-list-mobile">
+            <li class="adress-item-mobile">
+              <a href="tel:+110001111111" class="adress-link-mobile">
+                +11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="adress-item-mobile">
+              <a href="mailto:info@devstudio.com" class="adress-link-mobile"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </adress>
+        <ul class="social-list-mobil">
+          <li class="social-item-mobil">
+            <a href="./index.html" class="social-link-mobil">
+              <svg class="item-svg" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item-mobil">
+            <a href="./index.html" class="social-link-mobil">
+              <svg class="item-svg" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item-mobil">
+            <a href="./index.html" class="social-link-mobil">
+              <svg class="item-svg" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item-mobil">
+            <a href="./index.html" class="social-link-mobil">
+              <svg class="item-svg" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <!-- #endregion header -->
@@ -137,7 +201,11 @@
           <ul class="list-ourteam">
             <li class="item-ourteam">
               <img
-                src="./images/markguerrero.jpg"
+                src="./images/markguerrero@1x.jpg"
+                srcset="
+                  ./images/markguerrero@1x.jpg 1x,
+                  ./images/markguerrero@2x.jpg 2x
+                "
                 alt="Mark Guerrero"
                 height="260"
                 width="264"
@@ -179,8 +247,9 @@
             </li>
             <li class="item-ourteam">
               <img
-                src="./images/tomford.jpg"
-                alt="Tom Ford"
+                src="./images/tomford@1x.jpg"
+                srcset="./images/tomford@1x.jpg 1x, ./images/tomford@2x.jpg 2x"
+                alt="tomford"
                 height="260"
                 width="264"
               />
@@ -221,7 +290,11 @@
             </li>
             <li class="item-ourteam">
               <img
-                src="./images/camilagarcia.jpg"
+                src="./images/camilagarcia@1x.jpg"
+                srcset="
+                  ./images/camilagarcia@1x.jpg 1x,
+                  ./images/camilagarcia@2x.jpg 2x
+                "
                 alt="Camila Garcia"
                 height="260"
                 width="264"
@@ -263,7 +336,11 @@
             </li>
             <li class="item-ourteam">
               <img
-                src="./images/danielwilson.jpg"
+                src="./images/danielwilson@1x.jpg"
+                srcset="
+                  ./images/danielwilson@1x.jpg 1x,
+                  ./images/danielwilson@2x.jpg 2x
+                "
                 alt="Daniel Wilson"
                 height="260"
                 width="264"
@@ -317,7 +394,11 @@
             <li class="item-portfolio">
               <div class="portfolio-card">
                 <img
-                  src="./images/banking.jpg"
+                  src="./images/banking@1x.jpg"
+                  srcset="
+                    ./images/banking@1x.jpg 1x,
+                    ./images/banking@2x.jpg 2x
+                  "
                   alt="Banking App"
                   height="300"
                   width="360"
@@ -336,7 +417,11 @@
             <li class="item-portfolio">
               <div class="portfolio-card">
                 <img
-                  src="./images/cashless.jpg"
+                  src="./images/cashless@1x.jpg"
+                  srcset="
+                    ./images/cashless@1x.jpg 1x,
+                    ./images/cashless@2x.jpg 2x
+                  "
                   alt="Cashless Payment"
                   height="300"
                   width="360"
@@ -355,7 +440,11 @@
             <li class="item-portfolio">
               <div class="portfolio-card">
                 <img
-                  src="./images/meditation.jpg"
+                  src="./images/meditation@1x.jpg"
+                  srcset="
+                    ./images/meditation@1x.jpg 1x,
+                    ./images/meditation@2x.jpg 2x
+                  "
                   alt="Meditation App"
                   height="300"
                   width="360"
@@ -374,7 +463,8 @@
             <li class="item-portfolio">
               <div class="portfolio-card">
                 <img
-                  src="./images/taxi.jpg"
+                  src="./images/taxi@1x.jpg"
+                  srcset="./images/taxi@1x.jpg 1x, ./images/taxi@2x.jpg 2x"
                   alt="Taxi Service"
                   height="300"
                   width="360"
@@ -393,7 +483,8 @@
             <li class="item-portfolio">
               <div class="portfolio-card">
                 <img
-                  src="./images/screen.jpg"
+                  src="./images/screen@1x.jpg"
+                  srcset="./images/screen@1x.jpg 1x, ./images/screen@2x.jpg 2x"
                   alt="Screen Illustrations"
                   height="300"
                   width="360"
@@ -412,7 +503,8 @@
             <li class="item-portfolio">
               <div class="portfolio-card">
                 <img
-                  src="./images/online.jpg"
+                  src="./images/online@1x.jpg"
+                  srcset="./images/online@1x.jpg 1x, ./images/online@2x.jpg 2x"
                   alt="Online Courses"
                   height="300"
                   width="360"
@@ -502,8 +594,7 @@
       </div>
     </footer>
     <!-- #endregion footer -->
-
-    <!--#region mod-->
+    <!--#region modalka-->
     <div class="backdrop is-open" data-modal>
       <div class="modal">
         <button class="close-popup" type="button" data-modal-close>
@@ -575,9 +666,13 @@
             <label for="user-privacy" class="polisy">
               <span class="custom-checkbox">
                 <svg width="10" height="8">
-                  <use href="./images/icons.svg#icon-Vector"></use></svg></span
-              >I accept the terms and conditions of the
-              <a class="privacy-policy" href="./index.html">Privacy Policy</a>
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              <span class="custom-privace">
+                I accept the terms and conditions of the
+                <a class="privacy-policy" href="./index.html">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="main-button" type="submit">Send</button>
@@ -585,6 +680,7 @@
       </div>
     </div>
     <!-- #endregion mod -->
+    <script src="./js/burger.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
